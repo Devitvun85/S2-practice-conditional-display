@@ -1,6 +1,4 @@
 
-//Finally, we want to add, below the table, a statistic panel,
-//  displaying the average, min, and max scores of this table scores.
 
 function Statistic({Results}) {
      if (!Results || Results.length === 0) return null;
